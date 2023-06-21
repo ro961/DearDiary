@@ -15,8 +15,8 @@ const Notes = ({ notes }) => {
 
     const handleSearch = () => {
         setFilterNotes(notes.filter(note => {
-            if (note.title.toLowerCase().match(text.toLowerCase())) {
-                return note;
+            ///if (note.title.toLowerCase().match(text.toLowerCase())) {
+                ///return note;
             }
         }))
     }
