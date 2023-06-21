@@ -33,7 +33,7 @@ const Notes = ({ notes }) => {
                         setText(e.target.value);
                         handleSearch()
                     }} autoFocus placeholder='Keyword...' className='bg-white py-2 px-4 m-auto w-4/6
-                rounded-md outline-none text-white' />}
+                rounded-md outline-none text-black' />}
                 <button onClick={() => setShowSearch(!showSearch)} className='text-white text-3xl bg-zinc-500 p-2 rounded-md'>
                     {showSearch ? <MdClose /> : <CiSearch />}
                 </button>
